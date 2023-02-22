@@ -14,7 +14,7 @@ usage：
         bot权重/BOT权重  查询BOT的权重
 """.strip()
 __plugin_des__ = "QQ查权重"
-__plugin_cmd__ = ["查权重","bot权重","BOT权重"]
+__plugin_cmd__ = ["查权重","bot权重","BOT权重","QQ权重"]
 __plugin_type__ = ("一些工具",)
 __plugin_version__ = 0.1
 __plugin_author__ = "liuli"
@@ -22,7 +22,7 @@ __plugin_settings__ = {
     "level": 5,
     "default_status": True,
     "limit_superuser": False,
-    "cmd": ["查权重","bot权重","BOT权重"],
+    "cmd": ["查权重","bot权重","BOT权重","QQ权重"],
 }
 
 
